@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tambah Nomor SIPENA</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://kab-butontengah.atrbpn.go.id/img/favicon/favicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading -->
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>Memuat Aplikasi...</p>
+  </div>
+
+  <!-- Container iframe -->
+  <div class="iframe-container">
+    <iframe
+      id="sipenaFrame"
+      src="https://script.google.com/macros/s/AKfycbyq36X9LsrOJU5kJckP3O9hfI5oQ4SFbs0LfuYD7r5mgLHFp8b_0ZK2Ssly1wJ3nodX1A/exec"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
